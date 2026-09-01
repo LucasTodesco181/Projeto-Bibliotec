@@ -227,3 +227,36 @@ a {
     padding: 0 120px;
     color: var(--branco);
 }
+
+
+/* Banner Final  */
+
+h4 {
+    text-transform: uppercase;
+    width: 60%;
+    text-align: center;
+
+    }
+
+.capa-livros {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 100px;
+}
+
+.negrito {
+    font-weight: 500;
+}
+
+.escola,
+.Filhas-da-lua,
+.TI-para-negócios,
+.Mestres-do-tempo {
+    display: grid;
+    gap: 3%;
+    justify-items: center;
+    
+
+}
+
