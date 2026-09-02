@@ -228,52 +228,53 @@ a {
     color: var(--branco);
 }
 
+/* Acervo*/
 
-/* Banner Final  */
-
-h4 {
-    text-transform: uppercase;
-    width: 60%;
-    text-align: center;
-
-    }
-
-.capa-livros {
+.acervo {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+
+    padding: 50px 120px;
+}
+
+.livros {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
     justify-content: center;
     gap: 5%;
-    margin-top: 100px;
 }
 
-.negrito {
-    font-weight: 700;
+.livro {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
 }
 
-.escola,
-.Filhas-da-lua,
-.TI-para-negócios,
-.Mestres-do-tempo { 
-    display: grid;
-    gap: 3%;
-    justify-items: center;
-
-
+.livro img {
+    height: 300px;
 }
 
-.banner-final h2 {
-    margin-top: 50px;
-    
+.livro h3 {
+    text-transform: uppercase;
+    font-size: 1em;
+    width: 65%;
 }
 
-.banner-final {
-    height: 65vh;
+.livro-texto{
+    font-size: 0.8em;
 }
 
 
 /* RODAPE */
 
 footer {
-    background-color: var(--azul-escuro);
+    background-color:  var(--azul-escuro);
     height: 35vh;
     
 }
@@ -330,7 +331,7 @@ h5 {
 }
 
 span {
-    width: 200px;
+    width: 200;
     color: blueviolet;
     height: 10px;
 }
