@@ -275,7 +275,8 @@ a {
 
 footer {
     background-color:  var(--azul-escuro);
-    height: 35vh;
+    height: 50vh;
+    padding: 50px 120px;
     
 }
 
@@ -290,6 +291,7 @@ footer {
 
 h5 {
     color: var(--cor-destaque);
+    font-size: 1.2em;
 }
 
 .canto p {
@@ -331,7 +333,23 @@ h5 {
 }
 
 span {
-    width: 200;
-    color: blueviolet;
-    height: 10px;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    height: 5px;
+    margin-top: 60px;
+    align-self: center;
+}
+
+.texto1 {
+    color: white;
+    margin-left: 50px;
+}
+
+.textos2 {
+    color: white;
+    display: flex;
+    justify-content: end;
+    gap: 4%;
+    margin-right: 50px;
 }
