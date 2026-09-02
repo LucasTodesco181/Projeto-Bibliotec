@@ -246,17 +246,91 @@ h4 {
 }
 
 .negrito {
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .escola,
 .Filhas-da-lua,
 .TI-para-negócios,
-.Mestres-do-tempo {
+.Mestres-do-tempo { 
     display: grid;
     gap: 3%;
     justify-items: center;
-    
+
 
 }
 
+.banner-final h2 {
+    margin-top: 50px;
+    
+}
+
+.banner-final {
+    height: 65vh;
+}
+
+
+/* RODAPE */
+
+footer {
+    background-color: var(--azul-escuro);
+    height: 35vh;
+    
+}
+
+.logos {
+    margin-top: 70px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80%;
+}
+
+h5 {
+    color: var(--cor-destaque);
+}
+
+.canto p {
+    color: var(--branco);
+
+}
+
+.canto {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 120px;
+    margin-left: 700px;
+    
+}
+
+.canto2 p {
+    color: var(--branco);    
+}
+
+.canto2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 120px;
+    margin-right: 700px;
+    
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+}
+
+.espacinho {
+    margin-top: 50px;
+    display: flex;
+    gap: 35%;
+}
+
+span {
+    width: 200px;
+    color: blueviolet;
+    height: 10px;
+}
