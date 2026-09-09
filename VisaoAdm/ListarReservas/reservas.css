@@ -257,3 +257,10 @@ input[type="checkbox"]:checked::after {
     font-weight: 700;
 }
 
+.retirado {
+    color: green;
+}
+
+.aguardando {
+    color: brown;
+}
